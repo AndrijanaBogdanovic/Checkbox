@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Zdrava hrana - HEALTHY WAY. Prodavnica postoji 5 godina i pravo je mesto za ljubitelje zdrave ishrane i zdravog zivota.">
+	<meta name="keywords" content="zdrava,hrana,ishrana,prodavnica,Aleksandrovac,zitarice,cajevi,semenke">
+	<meta name="author" content="Andrijana Bogdanovic">
+	<link rel="stylesheet" type="text/css" href="pr.css">
+	<link rel="icon" href="ikonica.webp" type="image/x-icon" sizes="16x16" alt="Ikonica-favicon">
+	<title>ZDRAVA HRANA-Prodavnica HEALTHY WAY-Aleksandrovac</title>
+</head>
+
+<body>
+	<div class="header">
+		<img id="healthyway" src="slikazahederjpg.jpg" alt="slikaZaHeder">
+	</div>
+	<label for="show-menu" class="show-menu">Prikazi meni</label>
+	<input type="checkbox" id="show-menu" role="button">
+	<ul id="menu">
+		<li><a href="index.html">Pocetna </a>
+		</li>
+		<li><a href="onama.html">O nama</a>
+		</li>
+		<li><a href="kontakt.html">Kontakt</a>
+		</li>
+	</ul>
+	<div class="row">
+		<div class="levakolona">
+			<div class="uredjenje">
+				<h2 class="onamaH2">
+						Za sve informacije mozete nas kontaktirati putem telefona, e-maila ili kontakt formulara
+					</h2>
+				<p class="kontakt1">TELEFON: 037-3-552-517</p>
+				<p class="kontakt1">E-MAIL: healthyway@gmail.com</p>
+				<div class="forme">
+					<form name="obrazac">
+						<p class="Kontakt">Ime:
+							<input type="text" id="ime">
+						</p>
+						<p class="Kontakt">Prezime:
+							<input type="text" id="prezime">
+						</p>
+						<p class="buttoni">
+							<input type="button" value="Prosledi" onclick="validacija()">
+							<input type="button" value="Ponisti">
+						</p>
+						<p class="kontakt">Poruka:
+							<input type="text" id="field" class="polje">
+							<br>
+							<input type="button" value="Save" id="save">
+							<input type="button" value="Read" id="read">
+							<input type="button" value="Clear" id="clear">
+							<p class="kontakt">Da li vam se svidela stranica?
+								<br>
+								<input type="text" id="nekiTekst">
+								<button onclick="ocenaSajta()">Ispisi</button>
+							</p>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="desnakolona">
+			<div class="uredjenje">
+				<img id="rot2" src="animacija.png" alt="slikaRadnoVreme">
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<p id="adresa">Ulica 29 novembra broj 32 37230 Aleksandrovac</p>
+	</div>
+	<script src="objekti.js"></script>
+</body>
+
+</html>
